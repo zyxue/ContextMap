@@ -173,11 +173,11 @@ public class Main {
 			boolean lowCoverage = true;
 			int updateInterval = 3;
 			
-			int minPolyALength = 6;
-			int minPolyAReadCount = 3;
-			int maxConsideredClippingLength = 30;
-			double upperPolyACutoff = 1.0;
-			double lowerPolyACutoff = 0.7;
+			int minPolyALength = 6;		      // w_l
+			int minPolyAReadCount = 3;	      // r_s
+			int maxConsideredClippingLength = 30; // s_l
+			double upperPolyACutoff = 1.0;	      // c_1
+			double lowerPolyACutoff = 0.7;	      // c_2
 			
 			
 			boolean writeSequenceDB = false;
